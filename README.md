@@ -24,7 +24,7 @@ Either use the self-contained executable from the releases or follow these steps
 ### Clone the repository
 
 ```sh
-git clone https://github.com/andrebore04/PyTubeFX/PyTubeFX.git
+git clone https://github.com/andrebore04/PyTubeFX.git
 cd PyTubeFX
 ```
 
@@ -52,7 +52,7 @@ pip install Nuitka
 ### Clone the repository
 
 ```sh
-git clone https://github.com/andrebore04/PyTubeFX/PyTubeFX.git
+git clone https://github.com/andrebore04/PyTubeFX.git
 cd PyTubeFX
 ```
 
