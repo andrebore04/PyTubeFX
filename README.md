@@ -59,7 +59,7 @@ cd PyTubeFX
 ### Finally, build the app
 
 ```sh
-nuitka --follow-imports --onefile --disable-console ./main.py
+nuitka --onefile --disable-console --enable-plugin=tk-inter ./main.py
 ```
 
 ## Improvements
