@@ -1,7 +1,33 @@
 # PyTubeFX (1.0.0)
-A simple GUI implementation of [pytubefix](https://github.com/JuanBindez/pytubefix) based on [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter).
+A simple GUI implementation of [pytubefix](https://github.com/JuanBindez/pytubefix), based on [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter).
 
-![](./resources/splash.png)
+<div style='width: 640px; height: 480px; margin: auto'>
+	<img src='./resources/splash.png'>
+</div>
+<br>
+
+## Requirements
+The main requirement for this program is [FFmpeg](https://ffmpeg.org/), you need to install it and the directory of the binary files must be in system's PATH variable, or the application won't be able to export the video.
+
+### Windows
+I suggest you use [winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/) to install it, like so:
+
+```pwsh
+# The essentials build is sufficient
+winget install --id Gyan.FFmpeg.Essentials
+```
+
+Alternatively, download the binaries manually from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/).
+
+### Linux
+You can probably install it from your package manager.
+For more information, refer to [FFmpeg's download page](https://ffmpeg.org/download.html#build-linux).
+
+For instance, on Ubuntu, install it like this:
+
+```sh
+sudo apt install ffmpeg
+```
 
 ## Dependencies
 >These dependencies are only required if you want to launch the app from Python or if you want to build the executable yourself.<br>
@@ -65,7 +91,9 @@ pyinstaller --onefile --noconsole ./main.py
 ## Improvements
 These are some known bugs to fix and general features that could be added in the next releases:
 - Fix graphics and fonts being a bit tight on linux (as I've seen on Ubuntu 22.04.3).
+- Add MacOS binaries (as soon as I find a Mac to do this on).
 - Implement langauge files and convert app to use them.
+- Implement "Playlist Mode", to download entire playlists.
 - Find a workaround to setup oauth without having to use [pytubefix's CLI](https://github.com/JuanBindez/pytubefix/blob/main/pytubefix/innertube.py#L335); this would make it possible for users to download private and age-restricted videos.
 - Implement "Advanced Mode", with different codec options and support for higher resolutions.
 
