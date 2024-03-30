@@ -1,4 +1,4 @@
-# PyTubeFX (1.0.0)
+# PyTubeFX (1.1.0)
 A simple GUI implementation of [pytubefix](https://github.com/JuanBindez/pytubefix), based on [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter).
 
 <div style='width: 640px; height: 480px; margin: auto'>
