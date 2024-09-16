@@ -1,4 +1,4 @@
 customtkinter>=5.2.2
-pillow>=10.2.0
-pytubefix>=3.0.0
+pillow>=10.4.0
+pytubefix>=6.16.2
 requests
