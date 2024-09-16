@@ -1,0 +1,7 @@
+# Python cache
+**/__pycache__/
+
+# Pyinstaller build files
+build/
+dist/
+main.spec
